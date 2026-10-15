@@ -3,7 +3,11 @@ cd src/iris_mlops && touch api.py config.py data.py predict.py train.py
 cd ../../app && touch gradio_app.py
 
 
-uv add pandas scikit-learn
+uv add pandas scikit-learn joblib "fastapi[standard]" pydantic gradio
 
 -- Instalar el paquete / proyecto en modo editable para ir debuggeando
 uv pip install -e .
+
+
+--Debug del modulo api.py
+uv run fastapi dev src/iris_mlops/api.py
