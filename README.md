@@ -25,3 +25,6 @@ uv run pytest -v
 
 --Crear inputs para validar más rápido (alias)
 --uv run preparar-datos
+
+
+-- https://docs.github.com/en/actions
