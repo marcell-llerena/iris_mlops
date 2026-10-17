@@ -18,3 +18,10 @@ uv run gradio_app.py
 
 --Crear los tests unitarios
 uv add --dev pytest httpx2
+
+
+--Correr test unitarios (-v: modo verboso)
+uv run pytest -v
+
+--Crear inputs para validar más rápido (alias)
+--uv run preparar-datos
