@@ -38,7 +38,7 @@ demo = gr.Interface(
         [7.0 ,3.2, 4.7, 1.4], # versicolor
         [6.3, 3.3, 6.0, 2.5] # virginica
     ],
-    title="🌸 Clasificador de flores Iris",
+    title="🌸 Clasificador de flores Iris (Despliegue Automático) 👽",
     description="Mueve los sliders con las medidas de la flor",
     flagging_mode="never"
 )
