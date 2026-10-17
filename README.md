@@ -11,3 +11,10 @@ uv pip install -e .
 
 --Debug del modulo api.py
 uv run fastapi dev src/iris_mlops/api.py
+
+--Levantar la interfaz
+uv run gradio_app.py
+
+
+--Crear los tests unitarios
+uv add --dev pytest httpx2
